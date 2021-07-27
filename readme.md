@@ -1,3 +1,3 @@
 # Calculadora API (GQSO IFAL)
 
-TODO( annabeatriz-ifal ): preencher descrição das funionalidades do projeto.
+Este projeto contém o código de um API REST calculadora.
