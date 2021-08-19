@@ -8,11 +8,10 @@ public class Soma{
     public String rotaDaSoma(@PathParam String b, @PathParam String m){
         try {
             double s = Double.parseDouble(b) + Double.parseDouble(m);
-
             return String.format("%.1f", s);
         } 
         catch (NumberFormatException nfe) {
-           throw new BadRequestException(String.format(" Parâmetro incorreto "));
+           throw new BadRequestException(String.format(" É preciso informar um parâmetro válido"));
         }
         
     }
