@@ -17,4 +17,8 @@ public class Soma{
         }
         
     }
+
+    public Integer so(String string) {
+        return null;
+    }
 }
